@@ -5,8 +5,6 @@ const mime = require("mime");
 const AZURE_STORAGE_CONNECTION_STRING ="DefaultEndpointsProtocol=https;AccountName=pipliinternalportal;AccountKey=KbbDxAFwPASdsErJFQcBMmj9JgVCGFOUmvXWFthP9fYchEfoSpbsPb4QGlNZEiHQtdrlLgb8G/il+ASt+tREmw==;EndpointSuffix=core.windows.net"
 
 
-
-
 const transferGCPToAzure = async function (fileUrl , nameOfFile) {
   const extractedNameOfFile = nameOfFile.split("/");
   console.log(extractedNameOfFile)
